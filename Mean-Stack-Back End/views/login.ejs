@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Please Input Username or Password</h1>
+    <form method="POST">
+    <div>
+        <label for="username">Username: </label>
+        <input type="text" id="username" name="username" value="<%= username %>"><br>
+    </div>
+    <div>
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="password"><br>
+    </div>
+    <div>
+        <button type="submit" value="submit">Sumbit</button>
+    </div>
+    <input type="hidden" name="redirect" value="<%= redirect %>">
+    </form>
+  </body>
+</html>
