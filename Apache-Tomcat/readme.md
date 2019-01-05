@@ -4,8 +4,8 @@ implementation of an online markdown editor using MySQL and Tomcat.
 - allows users to create a new post (written in markdown), preview the post (rendered in HTML), and manage existing posts
 - develops this Web application using Java Servlet and JSP (Java ServerPages), and using Web Application Archive (WAR) file for easy deployment on Tomcat.
 - uses JDBC (Java DataBase Connectivity) API to access MySQL data
-- to implement the “preview page”, you need to “compile” a markdown-formatted input into an HTML-formatted output. For this,  the [commonmark Java library] (https://github.com/atlassian/commonmark-java, "commonmark Java library") is used here.
-- uses [Bootstrap-4] (https://getbootstrap.com/, "Bootstrap") Web front-end library for styling the website.
+- to implement the “preview page”, you need to “compile” a markdown-formatted input into an HTML-formatted output. For this,  the [commonmark Java library](https://github.com/atlassian/commonmark-java) is used here.
+- uses [Bootstrap-4](https://getbootstrap.com/, "Bootstrap") Web front-end library for styling the website.
 
 
 Edit Page
