@@ -7,7 +7,6 @@ The back-end service that implement the RESTful API to save/delete and post blog
 
 
 ## Front End
----
 Developed by Angular CLI (v7.0.3).
 
 URL | state
@@ -18,17 +17,18 @@ URL | state
 
 edit view
 ---
+![name](./edit.png 'edit')
 
 preview view
 ---
+![name](./preview.png 'preview')
 
 list pane
 ---
-
+![name](./list.png 'list')
 
 
 ## Back End
----
 Developed by MongoDB (v3.6.8), NodeJS (v8.12.0) and Express application generator (v4.16.0).
 
 The back-end blogging service is accessible at the following URLs:
