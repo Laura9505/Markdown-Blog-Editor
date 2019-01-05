@@ -6,6 +6,8 @@ The website is implemented in two ways:
 1. “traditional” stack and based on MySQL and Apache Tomcat;
 2. “modern” stack based on MongoDB, Node.js, Express, and Angular (a.k.a. MEAN stack).
 
+
+
 Software tools/languages used:
 - Docker
 - MySQL
