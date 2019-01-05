@@ -1,0 +1,24 @@
+[2018-12-06 01:05:18,921] f82692b058f0/INFO/locust.main: Run time limit set to 30 seconds
+[2018-12-06 01:05:18,922] f82692b058f0/INFO/locust.main: Starting Locust 0.9.0
+[2018-12-06 01:05:18,923] f82692b058f0/INFO/locust.runners: Hatching and swarming 800 clients at the rate 200 clients/s...
+[2018-12-06 01:05:27,225] f82692b058f0/INFO/locust.runners: All locusts hatched: MyLocust: 800
+[2018-12-06 01:05:27,225] f82692b058f0/INFO/locust.runners: Resetting stats
+
+[2018-12-06 01:05:49,013] f82692b058f0/INFO/locust.main: Time limit reached. Stopping Locust.
+[2018-12-06 01:05:49,076] f82692b058f0/INFO/locust.main: Shutting down (exit code 1), bye.
+[2018-12-06 01:05:49,084] f82692b058f0/INFO/locust.main: Cleaning up runner...
+[2018-12-06 01:05:49,473] f82692b058f0/INFO/locust.main: Running teardowns...
+ Name                                                          # reqs      # fails     Avg     Min     Max  |  Median   req/s
+--------------------------------------------------------------------------------------------------------------------------------------------
+ GET /editor/post                                                9940    13(0.13%)      81      -1     447  |      56  456.00
+ POST /editor/post                                               1103     5(0.45%)      96       3     624  |      62   48.30
+--------------------------------------------------------------------------------------------------------------------------------------------
+ Total                                                          11043    18(0.16%)                                     504.30
+
+Percentage of the requests completed within given times
+ Name                                                           # reqs    50%    66%    75%    80%    90%    95%    98%    99%   100%
+--------------------------------------------------------------------------------------------------------------------------------------------
+ GET /editor/post                                                 9940     56     87    120    140    190    220    280    310    450
+ POST /editor/post                                                1103     62    110    150    170    220    270    350    400    620
+--------------------------------------------------------------------------------------------------------------------------------------------
+ Total                                                           11043     56     88    120    150    190    230    290    320    620
