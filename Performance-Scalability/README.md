@@ -7,24 +7,30 @@ Mock data preparation: Before test, the databases have been populated with 500 f
 Locust File for Tomcat Server
 ---
 - read_tomcat.py
+
 simulating the scenario where all requests from users are read intensive. The user whose name is cs144 would randomly open one of his posts via /editor/post?action=open&username=cs144&postid={num}, where {num} is a random postid.
 
 - write_tomcat.py
+
 simulating the scenario where the requests from users are write intensive. The user cs144 would modify one of his posts randomly by changing the title and the body.
 
 - mixed_tomcat.py
+
 simulating a more realistic scenario where some users are reading posts while others are writing. In this test, 10% of users are write intensive while the remaining 90% are read intensive.
 
 
 Locust File for Node Server
 ---
 - read_node.py
+
 simulating a similar behavior of read_tomcat.py except that now we are testing the performance of our Node.JS server
 
 - write_node.py
+
 testing the server performance under write intensive requests as we did in write_tomcat.py. The user cs144 randomly update one of her posts by changing its title and body.
 
 - mixed_node.py
+
 combining the read intensive tasks and write intensive ones in a single file as you would expect. The percentage would remain the same as 10% write and 90% read.
 
 Results
